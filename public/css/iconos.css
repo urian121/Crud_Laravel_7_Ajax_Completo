@@ -1,0 +1,30 @@
+/***iconos***/	
+.zmdi-mail-reply{
+	font-size: 30px !important;
+	cursor: pointer;
+	color: cadetblue;
+    }
+    .zmdi-mail-reply:hover{
+	color: #333;
+	}
+
+.zmdi-search-in-file, .zmdi-edit, .zmdi-delete{
+	font-size: 25px !important;
+	padding: 0px 15px 0px 0px;
+	text-align: center;
+}
+.zmdi-search-in-file:hover{
+	cursor: pointer;
+	color: cadetblue;
+}
+.zmdi-edit:hover{
+	cursor: pointer;
+	color: green;
+}
+.zmdi-delete:hover{
+	color: crimson;
+}
+
+
+
+/**************/

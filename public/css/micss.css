@@ -1,0 +1,68 @@
+
+#cover {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #141526;
+	z-index: 9999;
+	font-size: 65px;
+	text-align: center;
+	padding-top: 200px;
+	color: #fff;
+	font-family:tahoma;
+	background: url('../img/cargando.gif') center no-repeat #fff;
+	}
+.img_miniatura{
+	width: 100%;
+	max-width: 250px;
+	height: 200px;
+	margin: 10px 0px;;
+}
+
+.titulos{
+	color:#075e54 !important;
+	background-color:#cecece !important;
+}
+
+/**Personalizando Boton File**/
+.upload-field-customized {
+	width: 100%;
+	background: #ccc;
+	position: relative;
+	cursor: pointer;
+}
+.upload-field-customized input[type="file"] {
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	opacity: 0;
+	cursor: pointer;
+	left: 0px;
+	top: 0px;
+	z-index: 10;
+}
+.upload-field-customized span {
+	text-align: center;
+	width: 100%;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+}
+.upload-field-customized span img {
+	margin-top: 10px;
+	opacity: 0.2;
+}
+
+.zmdi-delete:hover{
+	color: crimson;
+	cursor: pointer;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: flex-end;
+}
